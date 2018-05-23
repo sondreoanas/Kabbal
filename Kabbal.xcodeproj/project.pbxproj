@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1252E1D1D1961C800BE427A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1252E1C1D1961C800BE427A /* Assets.xcassets */; };
+		F14DD1E21D0D4BD900EC0E07 /* Solitire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14DD1E11D0D4BD900EC0E07 /* Solitire.swift */; };
 		F189CA751D096F1C002B739B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F189CA741D096F1C002B739B /* AppDelegate.swift */; };
-		F189CA771D096F1C002B739B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F189CA761D096F1C002B739B /* GameScene.sks */; };
 		F189CA791D096F1D002B739B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F189CA781D096F1D002B739B /* GameScene.swift */; };
 		F189CA7B1D096F1D002B739B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F189CA7A1D096F1D002B739B /* GameViewController.swift */; };
 		F189CA7E1D096F1D002B739B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F189CA7C1D096F1D002B739B /* Main.storyboard */; };
-		F189CA801D096F1D002B739B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F189CA7F1D096F1D002B739B /* Assets.xcassets */; };
 		F189CA831D096F1D002B739B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F189CA811D096F1D002B739B /* LaunchScreen.storyboard */; };
 		F189CA8E1D096F1D002B739B /* KabbalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F189CA8D1D096F1D002B739B /* KabbalTests.swift */; };
 		F189CA991D096F1D002B739B /* KabbalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F189CA981D096F1D002B739B /* KabbalUITests.swift */; };
+		F189CAA71D096FCF002B739B /* Spillkort.swift in Sources */ = {isa = PBXBuildFile; fileRef = F189CAA61D096FCF002B739B /* Spillkort.swift */; };
+		F189CAA91D09A656002B739B /* Kortstokk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F189CAA81D09A656002B739B /* Kortstokk.swift */; };
+		F1FA15F91D18A2B400563A74 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F1FA15F81D18A2B400563A74 /* GameScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,13 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F1252E1C1D1961C800BE427A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Kabbal/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		F14DD1E11D0D4BD900EC0E07 /* Solitire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Solitire.swift; sourceTree = "<group>"; };
 		F189CA711D096F1C002B739B /* Kabbal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kabbal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F189CA741D096F1C002B739B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F189CA761D096F1C002B739B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		F189CA781D096F1D002B739B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		F189CA7A1D096F1D002B739B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		F189CA7D1D096F1D002B739B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F189CA7F1D096F1D002B739B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F189CA821D096F1D002B739B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F189CA841D096F1D002B739B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F189CA891D096F1D002B739B /* KabbalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KabbalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +54,9 @@
 		F189CA941D096F1D002B739B /* KabbalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KabbalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F189CA981D096F1D002B739B /* KabbalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KabbalUITests.swift; sourceTree = "<group>"; };
 		F189CA9A1D096F1D002B739B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F189CAA61D096FCF002B739B /* Spillkort.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; fileEncoding = 4; path = Spillkort.swift; sourceTree = "<group>"; };
+		F189CAA81D09A656002B739B /* Kortstokk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Kortstokk.swift; path = ../Kortstokk.swift; sourceTree = "<group>"; };
+		F1FA15F81D18A2B400563A74 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +107,15 @@
 		F189CA731D096F1C002B739B /* Kabbal */ = {
 			isa = PBXGroup;
 			children = (
-				F189CA741D096F1C002B739B /* AppDelegate.swift */,
-				F189CA761D096F1C002B739B /* GameScene.sks */,
+				F189CAA81D09A656002B739B /* Kortstokk.swift */,
 				F189CA781D096F1D002B739B /* GameScene.swift */,
+				F14DD1E11D0D4BD900EC0E07 /* Solitire.swift */,
+				F189CAA61D096FCF002B739B /* Spillkort.swift */,
+				F1252E1C1D1961C800BE427A /* Assets.xcassets */,
+				F189CA741D096F1C002B739B /* AppDelegate.swift */,
+				F1FA15F81D18A2B400563A74 /* GameScene.sks */,
 				F189CA7A1D096F1D002B739B /* GameViewController.swift */,
 				F189CA7C1D096F1D002B739B /* Main.storyboard */,
-				F189CA7F1D096F1D002B739B /* Assets.xcassets */,
 				F189CA811D096F1D002B739B /* LaunchScreen.storyboard */,
 				F189CA841D096F1D002B739B /* Info.plist */,
 			);
@@ -194,18 +203,22 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Sondre Oanæs";
 				TargetAttributes = {
 					F189CA701D096F1C002B739B = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 33J6223V62;
+						LastSwiftMigration = 0820;
 					};
 					F189CA881D096F1D002B739B = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = F189CA701D096F1C002B739B;
 					};
 					F189CA931D096F1D002B739B = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = F189CA701D096F1C002B739B;
 					};
 				};
@@ -235,9 +248,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F189CA771D096F1C002B739B /* GameScene.sks in Resources */,
+				F1FA15F91D18A2B400563A74 /* GameScene.sks in Resources */,
 				F189CA831D096F1D002B739B /* LaunchScreen.storyboard in Resources */,
-				F189CA801D096F1D002B739B /* Assets.xcassets in Resources */,
+				F1252E1D1D1961C800BE427A /* Assets.xcassets in Resources */,
 				F189CA7E1D096F1D002B739B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,8 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F189CA791D096F1D002B739B /* GameScene.swift in Sources */,
+				F14DD1E21D0D4BD900EC0E07 /* Solitire.swift in Sources */,
 				F189CA7B1D096F1D002B739B /* GameViewController.swift in Sources */,
+				F189CAA71D096FCF002B739B /* Spillkort.swift in Sources */,
 				F189CA751D096F1C002B739B /* AppDelegate.swift in Sources */,
+				F189CAA91D09A656002B739B /* Kortstokk.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,8 +350,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -357,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -379,8 +397,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -396,9 +416,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -407,10 +428,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Kabbal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sonderoanas.Kabbal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -418,10 +443,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Kabbal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sonderoanas.Kabbal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -434,6 +463,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sonderoanas.KabbalTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kabbal.app/Kabbal";
 			};
 			name = Debug;
@@ -446,6 +476,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sonderoanas.KabbalTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kabbal.app/Kabbal";
 			};
 			name = Release;
@@ -458,6 +489,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sonderoanas.KabbalUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Kabbal;
 			};
 			name = Debug;
@@ -469,6 +501,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sonderoanas.KabbalUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Kabbal;
 			};
 			name = Release;
@@ -492,6 +525,7 @@
 				F189CA9F1D096F1D002B739B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F189CAA01D096F1D002B739B /* Build configuration list for PBXNativeTarget "KabbalTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +534,7 @@
 				F189CAA21D096F1D002B739B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F189CAA31D096F1D002B739B /* Build configuration list for PBXNativeTarget "KabbalUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +543,7 @@
 				F189CAA51D096F1D002B739B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
